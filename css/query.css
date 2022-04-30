@@ -1,0 +1,42 @@
+@media screen and (max-width:1140px) {
+    .container{
+        width: 100%;
+    }
+    
+}
+
+
+@media screen and (max-width: 768px) {
+
+    .container{
+       max-width: 768px;
+    }
+
+    .row{
+        justify-content: center;
+    }
+    
+}
+
+
+@media screen and (max-width:480px) {
+
+  .container{
+      max-width: 480px;
+  }
+
+.row{
+    flex-wrap: wrap;
+    flex-grow: 0;
+}
+
+  .col{
+      flex-basis: 100%;
+  }
+
+  .why-us .col-right{
+      margin-top: 3rem;
+  }
+
+
+  }
