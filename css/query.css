@@ -1,42 +1,63 @@
 @media screen and (max-width:1140px) {
-    .container{
+    
+    .container {
         width: 100%;
     }
-    
+
 }
 
 
 @media screen and (max-width: 768px) {
 
-    .container{
-       max-width: 768px;
+    .container {
+        max-width: 768px;
     }
 
-    .row{
+    .row {
         justify-content: center;
     }
-    
 }
 
 
 @media screen and (max-width:480px) {
 
-  .container{
-      max-width: 480px;
-  }
+     .container {
+        max-width: 480px;
+    }
 
-.row{
-    flex-wrap: wrap;
-    flex-grow: 0;
+    h2 {
+        padding: 3rem;
+    }
+
+    .lessons .container {
+        background: rgb(35, 41, 70);
+    }
+
+    .section {
+        padding: 3rem;
+    }
+
+    .row {
+        flex-wrap: wrap;
+        flex-grow: 0;
+    }
+
+    .col {
+        flex-basis: 75%;
+    }
+
+    .steps {
+        margin: 0;
+        padding: 0;
+    }
+
+    .card {
+        margin-bottom: 4rem;
+    }
+
+    .why-us {
+        background: black;
+        margin-bottom: 0;
+    }
+
 }
-
-  .col{
-      flex-basis: 100%;
-  }
-
-  .why-us .col-right{
-      margin-top: 3rem;
-  }
-
-
-  }
